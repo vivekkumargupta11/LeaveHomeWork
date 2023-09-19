@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name -> "
+            android:textSize="17sp"
+            android:textColor="#FF9800"
+            android:fontFamily="monospace"
+            android:textFontWeight="600"
+            />
+         <TextView
+             android:id="@+id/bottom_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone -> "
+            android:textSize="17sp"
+            android:textColor="#FF9800"
+            android:fontFamily="monospace"
+            android:textFontWeight="600"
+            />
+         <TextView
+             android:id="@+id/bottom_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:fontFamily="monospace"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email -> "
+            android:textSize="17sp"
+            android:textColor="#FF9800"
+            android:fontFamily="monospace"
+            android:textFontWeight="600"
+            />
+         <TextView
+             android:id="@+id/bottom_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="#343232"
+            android:fontFamily="monospace"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
